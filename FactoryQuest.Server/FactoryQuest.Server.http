@@ -1,0 +1,6 @@
+@FactoryQuest.Server_HostAddress = http://localhost:5212
+
+GET {{FactoryQuest.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,30 @@
+<!--index.wxml-->
+<navigation-bar 
+title="Factory Quest"
+back="{{false}}"
+color="black"
+background="#FFF">
+</navigation-bar>
+
+
+<view class="container">
+
+  <view>
+    玩家名称：
+    {{player.name}}
+  </view>
+
+
+  <view>
+    等级：
+    {{player.level}}
+  </view>
+
+
+  <view>
+    金币：
+    {{player.gold}}
+  </view>
+
+
+</view>

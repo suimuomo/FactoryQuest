@@ -1,0 +1,25 @@
+# Visual Studio
+.vs/
+.vscode/
+
+# .NET build
+bin/
+obj/
+
+# User settings
+*.user
+*.suo
+
+# SQLite database
+*.db
+*.sqlite
+
+# 微信开发者工具
+project.private.config.json
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
